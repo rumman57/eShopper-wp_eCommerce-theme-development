@@ -1,0 +1,72 @@
+.woo_slider_settings_wrapper{
+    width: 90%;
+    
+    margin: auto;
+}
+.woo_slider_settings_wrapper .settings_section{
+    background-color: #fff;
+    
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px 0;
+}
+.woo_slider_settings_wrapper .settings_section_slider_types{
+    display: none;
+}
+.woo_slider_settings_wrapper .settings_section_slider_types.show{
+  display: block;
+}
+.woo_slider_settings_wrapper .settings_section .section_header{
+    font-size: 23px;
+    
+    color: #ddd;
+    font-weight: bold;
+    background: #333;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+}
+
+.woo_slider_settings_wrapper .settings_section .fields{
+    margin: 12px 0;
+    
+    padding: 10px 0;
+}
+.woo_slider_settings_wrapper .settings_section .fields .radio_field {
+    background: none repeat scroll 0 0 #eee;
+    margin: 0 25px 0 0;
+    padding: 10px;
+}
+
+.woo_slider_settings_wrapper .settings_section .fields label{
+    width: 25%;
+    
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+.woo_slider_settings_wrapper .settings_section .fields input{
+    max-width: 100px;
+    
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.woo_slider_settings_wrapper .settings_section .fields select{
+    min-width: 30%;
+    
+    text-align: center;
+}
+.woo_slider_settings_wrapper .settings_section .fields .description{
+    font-style: italic;
+    font-size:13px;
+    display: block;
+    padding-left: 31%;
+}
+.saved_message {
+background: rgb(145, 201, 145);
+padding: 10px;
+text-align: center;
+font-weight: bold;
+}#lightbox_sub_settings{display:none;}

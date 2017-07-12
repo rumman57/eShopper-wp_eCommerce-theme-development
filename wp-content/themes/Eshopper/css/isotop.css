@@ -1,0 +1,85 @@
+
+
+  * { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- button ---- */
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: #ddd;
+  border: none;
+  border-radius: 7px;
+  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+  color: #031A38;
+  font-family: sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+
+  color: #49ABE3;
+}
+
+.button:active,
+.button.is-checked {
+  color: #49ABE3;
+}
+
+.button.is-checked {
+  color: crimson;
+}
+
+
+
+/* ---- button-group ---- */
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+/*.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+/* ---- isotope ---- */
+
+.grid {
+  width:100%;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+ 
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+ width:100%;
+
+}
+
+/*.element-item > * {
+  margin: 0;
+  padding: 0;
+}

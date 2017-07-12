@@ -1,0 +1,110 @@
+/**
+ * WPBean Admin CSS
+ */
+
+.wpb_wpbean_socials {
+	margin-bottom: 15px;
+	display: block!important;
+	visibility: visible!important;
+	overflow: hidden;
+}
+.wpb_wpbean_socials > a {
+    margin-right: 10px;
+    display: inline-block;
+    line-height: 19px;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+.wpb_wpbean_socials > a:focus,
+.wpb_wpbean_socials > a:active {
+	outline: 0;
+	box-shadow: none;
+}
+
+.wpb_wpbean_socials > a.wpb_facebook {
+	background: #5D82D1;
+}
+.wpb_wpbean_socials > a.wpb_twitter {
+	background: #40BFF5;
+}
+.wpb_wpbean_socials > a.wpb_googleplus {
+	background: #EB5E4C;
+}
+.wpb_wpbean_socials > a.wpb_youtube {
+    background: #cc181e;
+}
+.wpb_wpbean_socials > a.wpb_facebook:hover {
+	background: rgba(93, 130, 209, 0.75);
+}
+.wpb_wpbean_socials > a.wpb_twitter:hover {
+	background: rgba(64, 191, 245, 0.75);
+}
+.wpb_wpbean_socials > a.wpb_googleplus:hover {
+	background: rgba(235, 94, 76, 0.75);
+}
+.wpb_wpbean_socials > a.wpb_youtube:hover {
+    background: rgba(204, 24, 30, 0.75);
+}
+
+
+.wpb_wrps_settings_area {
+    position: relative;
+}
+.wpb_wrps_settings_content {
+    position: fixed;
+    top: 22%;
+    right: 0;
+    background: #fff;
+    width: 350px;
+    padding: 20px 20px;
+}
+.wpb_wrps_settings_content ul li {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+}
+.wpb_wrps_settings_content ul li:before {
+    content: "\f147";
+    font-family: dashicons;
+    font-size: 24px;
+    color: #EB5E4C;
+    position: relative;
+    top: 7px;
+    margin-right: 5px;
+    -webkit-font-smoothing: antialiased;
+}
+.wpb_get_pro_btn,.wpb_get_pro_btn:hover,.wpb_get_pro_btn:focus,.wpb_get_pro_btn:active {
+    outline: 0;
+    box-shadow: none;
+    color: #fff;
+}
+.wpb_get_pro_btn {
+    display: inline-block;
+    min-width: 200px;
+    padding: 15px 0;
+    background: #40BFF5;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.wpb_get_pro_btn:hover {
+    background: rgba(64, 191, 245, 0.75);
+}
+@media screen and (max-width: 768px) {
+    .wpb_wrps_settings_content {
+        position: inherit;
+        width: 100%;
+    }
+}
